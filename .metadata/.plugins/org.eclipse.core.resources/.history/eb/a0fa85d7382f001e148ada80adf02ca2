@@ -1,0 +1,22 @@
+package PRACTICA3;
+import java.util.Scanner;
+public class PromocionDeVentas {
+
+	public static void main(String[] args)
+	{
+		Scanner leer = new Scanner (System.in);
+		double d, n, t, tn2, tn1, tn, vt, c;
+		
+		System.out.print("Ingrese el número de ventas: ");
+		vt = leer.nextDouble();
+		
+		c = 1;
+		
+		while(c <= vt)
+		{
+			System.out.print("Ingrese el numero de articulos: ");
+		}
+
+	}
+
+}

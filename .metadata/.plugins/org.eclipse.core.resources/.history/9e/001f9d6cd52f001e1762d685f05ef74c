@@ -1,0 +1,31 @@
+package PRACTICA4;
+import java.util.Scanner;
+public class FibonnaciDeMayorAMenor {
+
+	public static void main(String[] args)
+	{
+		Scanner leer = new Scanner (System.in);
+		int n, a, b, c, i;
+		
+		System.out.print("Ingrese el número de elementos: ");
+        n = leer.nextInt();
+
+        a = 0;
+        b = 1;
+        i = 1;
+
+        System.out.println("Secuencia de Fibonacci de mayor a menor:");
+        System.out.print(a + ", ");
+
+        while (i <= n) {
+            c = a + b;
+            System.out.print(c + ", ");
+
+            a = b;
+            b = c;
+            i++;
+        }
+		
+	}
+
+}

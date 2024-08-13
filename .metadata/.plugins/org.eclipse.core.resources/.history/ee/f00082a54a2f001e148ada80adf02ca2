@@ -1,0 +1,10 @@
+package PRACTICA4;
+
+public class GENERA_1_2_4_7_11_16_22_29 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
